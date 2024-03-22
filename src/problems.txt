@@ -21,3 +21,8 @@ Parenthesis
 1. Valid Parenthesis
 2. Generate Parenthesis
 3. Longest Valid Parenthesis
+
+SubSequences
+----------------------
+1. Print all subsequences
+2. is a subsequences
