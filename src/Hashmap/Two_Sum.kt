@@ -1,3 +1,5 @@
+package Hashmap
+
 fun main() {
     val r = twoSum(nums = intArrayOf(3,3), target = 6)
     r.forEach { print(it) }

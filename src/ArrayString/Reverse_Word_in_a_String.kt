@@ -1,3 +1,5 @@
+package ArrayString
+
 fun main() {
     val r = reverseWords("a good   example")
     println(r)

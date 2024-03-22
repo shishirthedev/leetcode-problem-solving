@@ -1,9 +1,6 @@
-import java.util.*
-import java.util.function.Function
-
-
+package ArrayString
 fun main() {
-    println(findKthLargest(nums = intArrayOf(3,2,3,1,2,4,5,5,6), k = 4))
+
 }
 
 fun longestCommonPrefix(strs: Array<String>): String {
@@ -23,10 +20,4 @@ fun longestCommonPrefix(strs: Array<String>): String {
         else break
     }
     return if (builder.isEmpty()) "" else builder.toString()
-}
-
-
-fun findKthLargest(nums: IntArray, k: Int): Int {
-    val sortedNums = nums.sortedDescending()
-    return sortedNums[k-1]
 }

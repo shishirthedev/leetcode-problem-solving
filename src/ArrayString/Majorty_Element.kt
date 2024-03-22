@@ -1,3 +1,5 @@
+package ArrayString
+
 fun main() {
     val r = majorityElement(intArrayOf(2,2,1,1,1,2,2))
     println(r)

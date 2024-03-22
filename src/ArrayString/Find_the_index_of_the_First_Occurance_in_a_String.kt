@@ -1,4 +1,4 @@
-
+package ArrayString
 
 fun strStr(haystack: String, needle: String): Int {
     return if (haystack.contains(needle)) {

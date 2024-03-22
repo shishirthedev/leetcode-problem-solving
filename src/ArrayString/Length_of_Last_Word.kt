@@ -1,3 +1,5 @@
+package ArrayString
+
 fun main() {
     println(lengthOfLastWord("uffy is still joyboy"))
 }

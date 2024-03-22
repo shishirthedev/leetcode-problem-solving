@@ -1,3 +1,5 @@
+package ArrayString
+
 fun main() {
     Solution().merge2(intArrayOf(1, 2, 3, 0, 0, 0), 3, intArrayOf(2, 5, 6), 3)
 }

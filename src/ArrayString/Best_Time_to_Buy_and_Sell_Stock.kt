@@ -1,3 +1,5 @@
+package ArrayString
+
 import kotlin.math.max
 
 fun main() {

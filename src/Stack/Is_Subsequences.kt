@@ -1,3 +1,5 @@
+package Stack
+
 fun main() {
     //printAllSubsequences("abc")
     // println(isSub(s = "abc", t = "ahbgdc"))
@@ -20,7 +22,6 @@ fun printAllSubsequences(str: String) {
     }
 }
 
-// optimized to check is subsequence or not
 fun isSub(s: String, t: String): Boolean {
     var i: Int = 0
     var j: Int = 0
