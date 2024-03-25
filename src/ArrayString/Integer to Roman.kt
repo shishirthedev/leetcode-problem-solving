@@ -11,13 +11,11 @@ fun intToRoman(num: Int): String {
 
     var number = num
     val roman: StringBuilder = StringBuilder()
-    var i = 0
-    while (number != 0) {
+    for (i in romanValues.indices) {
         while (number >= romanValues[i]) {
             number -= romanValues[i]
             roman.append(romanSymbols[i])
         }
-        i++
     }
     return roman.toString()
 }
