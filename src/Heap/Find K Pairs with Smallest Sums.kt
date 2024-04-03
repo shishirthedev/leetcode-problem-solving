@@ -22,7 +22,7 @@ fun kSmallestPairs(
     }
 
     val arrSorted = arr.sortedBy { it.first }
-    var i = k
+    var i = 0
     val result = ArrayList<List<Int>>()
     while (i < k) {
         result.add(arrSorted[i].second)
