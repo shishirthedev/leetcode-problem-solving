@@ -3,7 +3,7 @@ package Hashmap
 import java.util.*
 
 fun main() {
-    val r = longestConsecutive2(intArrayOf(-1,0,0))
+    val r = longestConsecutive2(intArrayOf(-1, 0, 0))
     print(r)
 }
 
