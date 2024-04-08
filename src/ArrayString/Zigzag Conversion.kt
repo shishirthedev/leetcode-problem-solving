@@ -1,7 +1,5 @@
 package ArrayString
 
-import java.lang.StringBuilder
-
 fun main() {
     print(convert("PAYPALISHIRING", 3))
 }
