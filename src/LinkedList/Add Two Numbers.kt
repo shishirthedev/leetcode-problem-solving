@@ -1,8 +1,11 @@
 package LinkedList
 
+import ListNode
+
 fun main() {
 
 }
+
 
 fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
     val resultNode = ListNode(-1)

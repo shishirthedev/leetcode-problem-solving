@@ -1,10 +1,12 @@
 package LinkedList
 
+
+import ListNode
 import java.util.*
 
 
 fun main() {
-
+    println("hello world")
 }
 
 // way -1 using stack

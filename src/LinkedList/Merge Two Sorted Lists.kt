@@ -1,5 +1,7 @@
 package LinkedList
 
+import ListNode
+
 fun main() {
 
 }
